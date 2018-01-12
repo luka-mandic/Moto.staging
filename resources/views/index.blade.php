@@ -5,8 +5,8 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="Servis motora i vanbrodskih motora u Rijeci. Promjena i montaža guma.">
+    <meta name="author" content="Luka Mandić">
 
     <title>Master Moto Nautika</title>
 
@@ -38,19 +38,19 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#oNama">O nama</a>
+              <a class="nav-link" href="#oNama" data-id="oNama">O nama</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#usluge">Usluge</a>
+              <a class="nav-link" href="#usluge" data-id="usluge">Usluge</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#slike">Slike</a>
+              <a class="nav-link" href="#slike" data-id="slike">Slike</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#gdjeSmo">Gdje smo</a>
+              <a class="nav-link" href="#gdjeSmo" data-id="gdjeSmo">Gdje smo</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#kontakt">Kontakt</a>
+              <a class="nav-link" href="#kontakt" data-id="kontakt">Kontakt</a>
             </li>
           </ul>
         </div>
@@ -230,7 +230,7 @@
 
           </div>
         </div>
-        <div class="row">
+        <div class="row pt-5">
           <div class="col-lg-3 ml-auto text-center">
             <i class="fa fa-phone fa-3x mb-3 sr-contact"></i>
             <p>123-456-6789</p>
@@ -270,7 +270,14 @@
 
     <!-- Custom scripts for this template -->
     <script src="js/creative.js"></script>
-
+  <script>
+    $("a.nav-link").click(function() {
+    id = '#'+$(this).data("id");
+    $('html, body').animate({
+        scrollTop: ($(id).offset().top - 54)
+    }, 750);
+  });
+  </script>
 
   </body>
 
