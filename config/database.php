@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'default' => env('pgsql', 'pgsql'),
+    'default' => env('DB_CONNECTION', 'mysql'),
 
     /*
     |--------------------------------------------------------------------------
@@ -54,7 +54,7 @@ return [
             'engine' => null,
         ],
 
-        /*'pgsql' => [
+        'pgsql' => [
             'driver' => 'pgsql',
             'host' => env('DB_HOST', '127.0.0.1'),
             'port' => env('DB_PORT', '5432'),
@@ -65,20 +65,8 @@ return [
             'prefix' => '',
             'schema' => 'public',
             'sslmode' => 'prefer',
-        ],*/
-
-        'pgsql' => [
-            'driver' => 'pgsql',
-            'host' => 'ec2-23-23-243-111.compute-1.amazonaws.com',
-            'port' => '5432',
-            'database' => 'd6rc1ulsj4vidp',
-            'username' => 'eeazeflmzbsutm',
-            'password' => 'd7ee43681e364fa17250af29b2177a0c8d24f166e579385e6a85c986bcd2b121',
-            'charset' => 'utf8',
-            'prefix' => '',
-            'schema' => 'public',
-            'sslmode' => 'prefer',
         ],
+
 
         'sqlsrv' => [
             'driver' => 'sqlsrv',

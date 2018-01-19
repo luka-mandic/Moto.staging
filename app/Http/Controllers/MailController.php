@@ -12,8 +12,9 @@ class MailController extends Controller
     {
     	//dd($request);
     	Mail::raw($request->input('poruka'), function($message) use($request){
-    		$message->to('mastermotonautika@gmail.com', 'to luka')->subject($request->input('naslov'));
-    		$message->from($request->input('mail'), $request->input('ime'));
+    		$message->from('luka.mandic.ri@gmail.com', $request->input('ime'));
+    		$message->to('mastermotonautika@gmail.com', 'to '.$request->input('ime'))->subject($request->input('naslov'));
+    		
     	});
 
     	return redirect('/#kontakt');
