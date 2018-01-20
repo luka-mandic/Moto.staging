@@ -183,6 +183,11 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-8 mx-auto text-center">
+            @if(session('status'))
+                <div class="alert alert-success">
+                    {{ session('status') }}
+                </div>
+            @endif
             <h2 class="section-heading">Kontaktirajte nas</h2>
             <hr class="my-4">
             <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat in dicta illo sint esse saepe.</p>
@@ -257,6 +262,7 @@
           </div>
         </div>
       </div>
+
     </section>
 
     <!-- Bootstrap core JavaScript -->
@@ -272,11 +278,14 @@
     <script src="js/creative.js"></script>
   <script>
     $("a.nav-link").click(function() {
-    id = '#'+$(this).data("id");
-    $('html, body').animate({
-        scrollTop: ($(id).offset().top - 54)
-    }, 750);
-  });
+      id = '#'+$(this).data("id");
+      $('html, body').animate({
+          scrollTop: ($(id).offset().top - 54)
+      }, 750);
+    });
+
+    $('div.alert').delay(3000).fadeOut(350);
+
   </script>
 
   </body>
