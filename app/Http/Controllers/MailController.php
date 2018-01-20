@@ -2,22 +2,28 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Requests\CheckMail;
+use App\Jobs\SendEmail;
 use Illuminate\Http\Request;
 use Mail;
-use App\Http\Requests\CheckMail;
 
 class MailController extends Controller
 {
     public function send(CheckMail $request)
     {
-    	//dd($request);
-    	Mail::raw($request->input('poruka'), function($message) use($request){
-    		$message->from('luka.mandic.ri@gmail.com', $request->input('ime'));
-    		$message->to('mastermotonautika@gmail.com', 'to '.$request->input('ime'))->subject($request->input('naslov'));
-    		
-    	});
+    	$data = [
+    		'ime' => $request->input('ime'),
+    		'mail' => $request->input('mail'),
+    		'naslov' => $request->input('naslov'),
+    		'poruka' => $request->input('poruka'),
+    	];
 
-    	return redirect('/#kontakt');
+
+    	SendEmail::dispatch($data)
+                ->delay(now()->addSeconds(5));
+    	
+    	
+    	return redirect('/#kontakt')->with('status', 'Poruka je poslana!');
     }
 
     
