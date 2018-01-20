@@ -10,3 +10,4 @@
 ## About
 
 Website with a single static page frontend and a backend that allows signed in users to manage a database and search the records of it. Search feature implemented using Laravel Scout.
+Emails sent through app, use laravel queues.
