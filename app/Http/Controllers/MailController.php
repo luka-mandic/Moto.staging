@@ -18,7 +18,6 @@ class MailController extends Controller
     		'poruka' => $request->input('poruka'),
     	];
 
-
     	SendEmail::dispatch($data)
                 ->delay(now()->addSeconds(5));
     	
