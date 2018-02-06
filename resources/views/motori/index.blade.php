@@ -17,7 +17,7 @@
 <div class="card mt-4 motori">
     <div class="card-header">Dashboard<br><br>
 
-      <a href="/home/create" class="btn btn-primary btn-sm" style="color: white">Dodaj novi</a>
+      <a href="/servisi/create" class="btn btn-primary btn-sm" style="color: white">Dodaj novi</a>
     </div>
 
     <div class="card-body">
@@ -40,8 +40,8 @@
             @foreach($motori as $motor)
 
               <tr>
-                <th scope="row"><a class="motor" href="/home/{{ $motor->id }}">{{ $motor->broj_sasije }}</a></th>
-                <td><a href="/home/{{ $motor->id }}" class="motor">{{ $motor->naziv }}</a></td>
+                <th scope="row"><a class="motor" href="/servisi/{{ $motor->id }}">{{ $motor->broj_sasije }}</a></th>
+                <td><a href="/servisi/{{ $motor->id }}" class="motor">{{ $motor->naziv }}</a></td>
                 <td>{{ $motor->created_at->format('d.m.Y / h:m:s') }}
 
                   <form id="deleteForm" action="{{ action('MotorController@destroy', $motor->id) }}" style="display: none" method="POST">
@@ -50,9 +50,9 @@
                     
                   </form>
                   
-                  <a href="{{ action('MotorController@destroy', $motor->id) }}" onclick="event.preventDefault(); deleteMotor()" class="btn btn-danger btn-sm float-right" >Delete</a>
+                  <a href="{{ action('MotorController@destroy', $motor->id) }}" onclick="event.preventDefault(); deleteMotor()" class="btn btn-danger btn-sm float-right" >Izbriši</a>
   
-                  <a href="/home/{{ $motor->id }}/edit" class="btn btn-warning btn-sm float-right mr-3" >Edit</a></td>
+                  <a href="/servisi/{{ $motor->id }}/edit" class="btn btn-warning btn-sm float-right mr-3" >Izmijeni</a></td>
       
               </tr>
 

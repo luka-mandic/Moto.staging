@@ -5,7 +5,7 @@
 <div class="card mt-4 motori">
     <div class="card-header">
       Broj šasije: &nbsp<strong> {{ $motor->broj_sasije }}</strong><br>
-      Naziv: &nbsp {{ $motor->naziv }}  <a class="btn btn-warning btn-sm float-right" href="/home">Natrag</a>
+      Naziv: &nbsp {{ $motor->naziv }}  <a class="btn btn-warning btn-sm float-right" href="/servisi">Natrag</a>
     </div>
 
     kreiraj novi servis

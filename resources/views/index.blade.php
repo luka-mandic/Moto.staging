@@ -32,7 +32,7 @@
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
       <div class="container">
         <a class="navbar-brand js-scroll-trigger" href="#page-top">
-          <img src="img/logo.png" style="height: 60px; width: auto">
+          <img src="img/logo.png" style="height: 50px; width: auto">
         </a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -64,12 +64,12 @@
         <div class="row">
           <div class="col-lg-10 mx-auto">
             <h1 class="text-uppercase">
-              <strong>Lorem ipsum dolor sit amet, consectetur.</strong>
+              <strong>MASTER MOTO NAUTIKA</strong>
             </h1>
             <hr>
           </div>
           <div class="col-lg-8 mx-auto">
-            <p class="text-faded mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae sunt recusandae numquam repellendus dolorem beatae aut debitis, qui cumque alias.</p>
+            <p class="text-faded mb-5">Servis motora i vanbrodskih motora. Promjena i montaža guma.</p>
             <a class="btn btn-primary btn-xl js-scroll-trigger" href="#oNama">Saznaj više</a>
           </div>
         </div>
@@ -175,7 +175,7 @@
         height="450"
         frameborder="0" style="border:0"
         src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBxsMrmV2GxBZIlHXWgSCa16-vkXk5nfbs
-          &q=2+Školjić+ul.,Rijeka,Primorje-Gorski+Kotar+County" allowfullscreen>
+          &q=3a+Školjić,Rijeka,Primorje-Gorski+Kotar+County" allowfullscreen>
       </iframe>
       <div class="gdjeSmo"></div>
 
@@ -240,7 +240,7 @@
         <div class="row pt-5">
           <div class="col-lg-3 ml-auto text-center">
             <i class="fa fa-phone fa-3x mb-3 sr-contact"></i>
-            <p>123-456-6789</p>
+            <p>051-270-555</p>
           </div>
           <div class="col-lg-3 text-center">
             <i class="fa fa-envelope-o fa-3x mb-3 sr-contact"></i>
@@ -259,7 +259,7 @@
           <div class="col-lg-3 mr-auto text-center">
             <i class="fa fa-map-marker fa-3x mb-3 sr-contact"></i>
             <p>
-              Školjić ul. 2, 51000 Rijeka
+              Školjić 3a, 51000 Rijeka
             </p>
           </div>
         </div>

@@ -5,7 +5,7 @@
 <div class="card mt-4 motori">
     <div class="card-header">
       Broj šasije: &nbsp<strong> {{ $motor->broj_sasije }}</strong><br>
-      Naziv: &nbsp {{ $motor->naziv }}  <a class="btn btn-secondary btn-sm float-right" style="color: white" href="/home">Natrag</a>
+      Naziv: &nbsp {{ $motor->naziv }}  <a class="btn btn-secondary btn-sm float-right" style="color: white" href="/servisi">Natrag</a>
     </div>
 
     <div class="card-body">
@@ -27,15 +27,15 @@
             
           </form>
           
-          <a href="{{ action('ServisController@destroy', $servis->id) }}" onclick="event.preventDefault(); deleteServis(this.id)" class="btn btn-danger btn-sm float-right" id="{{ $servis->id }}">Delete</a>
+          <a href="{{ action('ServisController@destroy', $servis->id) }}" onclick="event.preventDefault(); deleteServis(this.id)" class="btn btn-danger btn-sm float-right" id="{{ $servis->id }}">Izbriši</a>
           
-          <a href="" data-id="{{ $servis->id }}" class="btn btn-warning btn-sm float-right mr-3 editServis">Edit</a></td>
+          <a href="" data-id="{{ $servis->id }}" class="btn btn-warning btn-sm float-right mr-3 editServis">Izmijeni</a></td>
           </td>
         </tr>
 
       @endforeach
       <tr>
-        <form action="/home/{{ $motor->id }}/servis" method="POST">
+        <form action="/servisi/{{ $motor->id }}/servis" method="POST">
           {{ csrf_field() }}
           <input type="hidden" value="{{ $motor->id }}" name="motor_id">
           <td>
@@ -69,7 +69,7 @@
    servisValue = $("#td"+tdId).text();
 
 
-   $("#td"+tdId).html(`<form action="/home/servis/`+tdId+`" method="POST">
+   $("#td"+tdId).html(`<form action="/servisi/servis/`+tdId+`" method="POST">
           {{ csrf_field() }}
           {{ method_field('PUT') }}
           <input type="hidden" value="{{ $motor->id }}" name="motor_id">

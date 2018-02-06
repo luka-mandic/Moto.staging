@@ -23,7 +23,7 @@ class MotorController extends Controller
     {
         $motori = Motor::latest()->paginate(15);
         //dd($motori);
-        return view('motori.home', compact('motori'));
+        return view('motori.index', compact('motori'));
     }
 
     public function search(Request $request)
@@ -56,7 +56,7 @@ class MotorController extends Controller
 
         $motor = Motor::create(request(['broj_sasije', 'naziv']));
 
-        return redirect('/home/'.$motor->id);
+        return redirect('/servisi/'.$motor->id);
 
 
     }
@@ -97,7 +97,7 @@ class MotorController extends Controller
     {
         $motor->update(request(['broj_sasije', 'naziv']));
 
-        return redirect('home');
+        return redirect('servisi');
     }
 
     /**

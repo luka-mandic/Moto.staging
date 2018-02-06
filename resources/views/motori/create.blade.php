@@ -5,7 +5,7 @@
   <div class="row justify-content-md-center mt-5">
     <div class="col-md-8">
       <div class="card">
-        <div class="card-header">Unos novog motora <a class="btn btn-warning btn-sm float-right" href="/home">Natrag</a></div>
+        <div class="card-header">Unos novog motora <a class="btn btn-warning btn-sm float-right" href="/servisi">Natrag</a></div>
         <div class="card-body">
           <form action="{{ action('MotorController@store') }}" method="POST">
             {{ csrf_field() }}

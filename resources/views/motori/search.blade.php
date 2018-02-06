@@ -15,7 +15,7 @@
   </form>
     
 <div class="card mt-4 motori">
-    <div class="card-header">Rezultati pretrage "{{ $pretraga }}"  <a class="btn btn-warning btn-sm float-right" href="/home">Natrag</a>
+    <div class="card-header">Rezultati pretrage "{{ $pretraga }}"  <a class="btn btn-warning btn-sm float-right" href="/servisi">Natrag</a>
     </div>
 
     <div class="card-body">
@@ -38,8 +38,8 @@
             @foreach($motori as $motor)
 
               <tr>
-                <th scope="row"><a style="none" href="/home/{{ $motor->id }}">{{ $motor->broj_sasije }}</a></th>
-                <td><a href="/home/{{ $motor->id }}">{{ $motor->naziv }}</a></td>
+                <th scope="row"><a class="motor" href="/servisi/{{ $motor->id }}">{{ $motor->broj_sasije }}</a></th>
+                <td><a class="motor" href="/servisi/{{ $motor->id }}">{{ $motor->naziv }}</a></td>
                 <td>{{ $motor->created_at->format('d.m.Y / h:m:s') }}</td>
               </tr>
 

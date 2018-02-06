@@ -11,29 +11,29 @@
                         {{ csrf_field() }}
 
                         <div class="form-group row">
-                            <label for="email" class="col-lg-4 col-form-label text-lg-right">E-Mail Address</label>
+                            <label for="username" class="col-lg-4 col-form-label text-lg-right">Korisničko ime:</label>
 
                             <div class="col-lg-6">
                                 <input
-                                        id="email"
-                                        type="email"
-                                        class="form-control{{ $errors->has('email') ? ' is-invalid' : '' }}"
-                                        name="email"
-                                        value="{{ old('email') }}"
+                                        id="username"
+                                        type="text"
+                                        class="form-control{{ $errors->has('username') ? ' is-invalid' : '' }}"
+                                        name="username"
+                                        value="{{ old('username') }}"
                                         required
                                         autofocus
                                 >
 
-                                @if ($errors->has('email'))
+                                @if ($errors->has('username'))
                                     <div class="invalid-feedback">
-                                        <strong>{{ $errors->first('email') }}</strong>
+                                        <strong>{{ $errors->first('username') }}</strong>
                                     </div>
                                 @endif
                             </div>
                         </div>
 
                         <div class="form-group row">
-                            <label for="password" class="col-lg-4 col-form-label text-lg-right">Password</label>
+                            <label for="password" class="col-lg-4 col-form-label text-lg-right">Zaporka:</label>
 
                             <div class="col-lg-6">
                                 <input
@@ -56,7 +56,7 @@
                             <div class="col-lg-6 offset-lg-4">
                                 <div class="form-check">
                                     <label class="form-check-label">
-                                        <input type="checkbox" class="form-check-input" name="remember" {{ old('remember') ? 'checked' : '' }}> Remember Me
+                                        <input type="checkbox" class="form-check-input" name="remember" {{ old('remember') ? 'checked' : '' }}> Zapamti me
                                     </label>
                                 </div>
                             </div>
@@ -69,7 +69,7 @@
                                 </button>
 
                                 <a class="btn btn-link" href="{{ route('password.request') }}">
-                                    Forgot Your Password?
+                                    Zaboravili ste zaporku?
                                 </a>
                             </div>
                         </div>
