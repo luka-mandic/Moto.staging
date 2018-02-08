@@ -15,7 +15,12 @@ Route::get('/', function () {
     return view('index');
 });
 
-Auth::routes();
+
+
+Route::get('/servisi/login', 'Auth\LoginController@showLoginForm')->name('login');
+Route::post('/servisi/login', 'Auth\LoginController@login');
+Route::post('/servisi/logout', 'Auth\LoginController@logout')->name('logout');
+
 
 Route::get('/servisi', 'MotorController@index')->name('servisi');
 

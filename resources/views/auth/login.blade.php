@@ -68,9 +68,6 @@
                                     Login
                                 </button>
 
-                                <a class="btn btn-link" href="{{ route('password.request') }}">
-                                    Zaboravili ste zaporku?
-                                </a>
                             </div>
                         </div>
                     </form>

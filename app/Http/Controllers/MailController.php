@@ -18,7 +18,6 @@ class MailController extends Controller
     		'poruka' => $request->input('poruka'),
     	];
 
-        //Check what happens if the title is empty
     	SendEmail::dispatch($data)
                 ->delay(now()->addSeconds(5));
     	
