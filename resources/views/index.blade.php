@@ -5,10 +5,11 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Servis motora i vanbrodskih motora u Rijeci. Promjena i montaža guma.">
+    <meta name="description" content="Servis motora, skutera i vanbrodskih motora u Rijeci. Izmjena i balansiranje guma.">
     <meta name="author" content="Luka Mandić">
+    <meta name="google-site-verification" content="rW5gSXGL-HSV_55SwotbTAF2e7Nk5Nn5RfsRk1eTcKg" />
 
-    <title>Master Moto Nautika</title>
+    <title>Master Moto Nautika - Servis motora Rijeka</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -40,7 +41,7 @@
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
       <div class="container">
         <a class="navbar-brand js-scroll-trigger" href="#page-top">
-          <img src="img/logo.png" style="height: 50px; width: auto">
+          <img src="img/logo.png" alt="Master moto nautika logo" style="height: 50px; width: auto">
         </a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -110,29 +111,29 @@
         <div class="row">
           <div class="col-lg-3 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
-              <img src="img/icons/1.svg" alt="">
-              <h3 class="mb-3">Servis motora</h3>
+              <img src="img/icons/1.svg" alt="Motocikl">
+              <h1 class="mb-3">Servis motora</h1>
               <p class="text-muted mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum, nobis.</p>
             </div>
           </div>
           <div class="col-lg-3 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
-              <img src="img/icons/2.png" alt="">
-              <h3 class="mb-3">Servis vanbrodskih motora</h3>
+              <img src="img/icons/2.png" alt="Vanbrodski motor">
+              <h1 class="mb-3">Servis vanbrodskih motora</h1>
               <p class="text-muted mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, optio!</p>
             </div>
           </div>
           <div class="col-lg-3 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
-              <img src="img/icons/3.png" alt="">
-              <h3 class="mb-3">Promjena guma</h3>
+              <img src="img/icons/3.png" alt="Guma">
+              <h1 class="mb-3">Promjena guma</h1>
               <p class="text-muted mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, saepe.</p>
             </div>
           </div>
           <div class="col-lg-3 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
-              <img src="img/icons/4.png" alt="">
-              <h3 class="mb-3">Izlazak na teren</h3>
+              <img src="img/icons/4.png" alt="Kombi">
+              <h1 class="mb-3">Izlazak na teren</h1>
               <p class="text-muted mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, odio.</p>
             </div>
           </div>
@@ -145,32 +146,32 @@
         <div class="row no-gutters popup-gallery">
           <div class="col-lg-4 col-sm-6">
             <a class="portfolio-box" href="img/portfolio/fullsize/1.jpg">
-              <img class="img-fluid" src="img/portfolio/thumbnails/1.jpg" alt="">
+              <img class="img-fluid" src="img/portfolio/thumbnails/1.jpg" alt="Servis motora">
             </a>
           </div>
           <div class="col-lg-4 col-sm-6">
             <a class="portfolio-box" href="img/portfolio/fullsize/2.jpg">
-              <img class="img-fluid" src="img/portfolio/thumbnails/2.jpg" alt="">
+              <img class="img-fluid" src="img/portfolio/thumbnails/2.jpg" alt="Servis motora">
             </a>
           </div>
           <div class="col-lg-4 col-sm-6">
             <a class="portfolio-box" href="img/portfolio/fullsize/3.jpg">
-              <img class="img-fluid" src="img/portfolio/thumbnails/3.jpg" alt="">
+              <img class="img-fluid" src="img/portfolio/thumbnails/3.jpg" alt="Alat za izmjenu i balansiranje guma">
             </a>
           </div>
           <div class="col-lg-4 col-sm-6">
             <a class="portfolio-box" href="img/portfolio/fullsize/4.jpg">
-              <img class="img-fluid" src="img/portfolio/thumbnails/4.jpg" alt="">
+              <img class="img-fluid" src="img/portfolio/thumbnails/4.jpg" alt="Pult">
             </a>
           </div>
           <div class="col-lg-4 col-sm-6">
             <a class="portfolio-box" href="img/portfolio/fullsize/5.jpg">
-              <img class="img-fluid" src="img/portfolio/thumbnails/5.jpg" alt="">
+              <img class="img-fluid" src="img/portfolio/thumbnails/5.jpg" alt="Radni stol i alat">
             </a>
           </div>
           <div class="col-lg-4 col-sm-6">
             <a class="portfolio-box" href="img/portfolio/fullsize/6.jpg">
-              <img class="img-fluid" src="img/portfolio/thumbnails/6.jpg" alt="">
+              <img class="img-fluid" src="img/portfolio/thumbnails/6.jpg" alt="Vanbrodski motori">
             </a>
           </div>
         </div>
@@ -200,7 +201,7 @@
             @endif
             <h2 class="section-heading">Kontaktirajte nas</h2>
             <hr class="my-4">
-            <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat in dicta illo sint esse saepe.</p>
+            <p class="mb-5">Pošaljite nam poruku i odgovoriti ćemo Vam u što kraćem mogućem roku.</p>
 
             <form action="/send#kontakt" method="POST">
               {{ csrf_field() }}
