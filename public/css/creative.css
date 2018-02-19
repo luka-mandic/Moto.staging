@@ -226,3 +226,14 @@ header.masthead {
 #usluge h1{
   font-size: 1.75rem;
 }
+
+#kontakt{
+  padding-bottom: 30px !important;
+}
+
+.footer {
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: auto;
+}

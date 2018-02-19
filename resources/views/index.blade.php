@@ -78,7 +78,7 @@
             <hr>
           </div>
           <div class="col-lg-8 mx-auto">
-            <p class="text-faded mb-5">Servis motora i vanbrodskih motora. Promjena i montaža guma.</p>
+            <p class="text-faded mb-5">Servis motora, skutera i vanbrodskih motora u Rijeci. Izmjena i balansiranje guma.</p>
             <a class="btn btn-primary btn-xl js-scroll-trigger" href="#oNama">Saznaj više</a>
           </div>
         </div>
@@ -91,8 +91,13 @@
           <div class="col-lg-8 mx-auto text-center">
             <h2 class="section-heading text-white">O nama</h2>
             <hr class="light my-4">
-            <p class="text-faded mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi, quam. Incidunt tempora consequuntur cupiditate neque ad dignissimos ipsa sequi culpa unde hic, error rem nisi fugiat, reprehenderit sunt atque inventore.</p>
-            <a class="btn btn-light btn-xl js-scroll-trigger" href="#usluge">Saznaj više</a>
+            <p class="text-faded mb-4">
+              Master moto nautika je firma koja se bavi održavanjem i popravcima motocikala, skutera i vanbrodskih motora.
+              Uz održavanje i servis pružamo i usluge montaže i balansiranja guma.
+              Naš entuzijazam svakodnevni nam je poticaj da Vam pružimo najviši nivo usluge.
+              Servis se nalazi u Rijeci na adresi Školjić 3a, u neposrednoj blizini INA benzinske pumpe.
+            </p>
+            <a class="btn btn-light btn-xl js-scroll-trigger" href="#usluge">Usluge</a>
           </div>
         </div>
       </div>
@@ -109,32 +114,43 @@
       </div>
       <div class="container">
         <div class="row">
-          <div class="col-lg-3 col-md-6 text-center">
+          <div class="col-lg-6 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
               <img src="img/icons/1.svg" alt="Motocikl">
               <h1 class="mb-3">Servis motora</h1>
-              <p class="text-muted mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum, nobis.</p>
+              <p class="text-muted mb-0">
+                Obavljamo servis za motocikle i skutere marki YAMAHA , HONDA , SUZUKI , KAWASAKI, BMW i Aprilia,kao i skutere piaggio grupe.
+                Vršimo servisiranje i popravke i ostalih japanskih i europskih proizvođača.
+                Radno vrijeme servisa je od pon-pet 09-17 sati
+              </p>
             </div>
           </div>
-          <div class="col-lg-3 col-md-6 text-center">
+          <div class="col-lg-6 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
               <img src="img/icons/2.png" alt="Vanbrodski motor">
               <h1 class="mb-3">Servis vanbrodskih motora</h1>
-              <p class="text-muted mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, optio!</p>
+              <p class="text-muted mb-0">
+                Vršimo usluge servisiranja i popravaka vanbrodskih motora marki YAMAHA , HONDA , SUZUKI, MERCURY, TOHATSU.
+              </p>
             </div>
           </div>
-          <div class="col-lg-3 col-md-6 text-center">
+          <div class="col-lg-6 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
               <img src="img/icons/3.png" alt="Guma">
               <h1 class="mb-3">Promjena guma</h1>
-              <p class="text-muted mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, saepe.</p>
+              <p class="text-muted mb-0">
+                Nudimo usluge izmjene i balansiranja guma za skutere i motocikle.
+                Na skladištu imamo veliki izbor guma marki MICHELIN , BRIDGESTONE, DUNLOP.
+              </p>
             </div>
           </div>
-          <div class="col-lg-3 col-md-6 text-center">
+          <div class="col-lg-6 col-md-6 text-center">
             <div class="service-box mt-5 mx-auto">
               <img src="img/icons/4.png" alt="Kombi">
               <h1 class="mb-3">Izlazak na teren</h1>
-              <p class="text-muted mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, odio.</p>
+              <p class="text-muted mb-0">
+                Nudimo Vam opciju servisiranja vanbrodskih motora u Vašem prostoru, lučicama i marinama kao i u suhim marinama.
+              </p>
             </div>
           </div>
         </div>
@@ -245,36 +261,46 @@
             </form>
 
           </div>
-        </div>
-        <div class="row pt-5">
-          <div class="col-lg-3 ml-auto text-center">
-            <i class="fa fa-phone fa-3x mb-3 sr-contact"></i>
-            <p>051-270-555</p>
-          </div>
-          <div class="col-lg-3 text-center">
-            <i class="fa fa-envelope-o fa-3x mb-3 sr-contact"></i>
-            <p>
-              <a href="mailto:mastermotonautika@gmail.com">mastermotonautika@gmail.com</a>
-            </p>
-          </div>
-          <div class="col-lg-3 mr-auto text-center">
-            <a href="http://www.facebook.com" target="_blank" style="color: black">
-              <i class="fa fa-facebook-official fa-3x mb-3 sr-contact"></i>
-            </a>
-            <p>
-              Pratite naš Facebook
-            </p>
-          </div>
-          <div class="col-lg-3 mr-auto text-center">
-            <i class="fa fa-map-marker fa-3x mb-3 sr-contact"></i>
-            <p>
-              Školjić 3a, 51000 Rijeka
-            </p>
-          </div>
-        </div>
       </div>
 
     </section>
+
+    <footer class="footer bg-dark">
+      <div class="container">
+        <div class="row pt-4">
+          <div class="col-md-4 col-lg-4 p-2">  
+            <p class="text-faded">
+              SJEDIŠTE:<br>
+              MASTER MOTO NAUTIKA j.d.o.o.<br>
+              Matuljska cesta 2a<br>
+              51410 Opatija<br>
+              MB: 04811801<br>
+              OIB: 11679420576<br>
+              IBAN: 18 2402 0061 1008 4911 5<br>
+              Email: mastermotonautika@gmail.com
+            </p>
+          </div> 
+          <div class="col-md-4 col-lg-4 p-2">  
+            <p class="text-faded">
+              SERVIS:<br>
+              MASTER MOTO NAUTIKA j.d.o.o.<br>
+              Školjić 3a<br>
+              51000 Rijeka<br>
+              tel: 051 270 555<br>
+            </p>
+          </div> 
+          <div class="col-md-4 col-lg-4 p-2" >  
+              <a href="https://www.facebook.com/MasterMotoNautika/" target="_blank" class="pr-5 text-faded">
+                <i class="fa fa-facebook-square fa-3x mb-3 sr-contact"></i>
+              </a>
+              
+              <a href="https://twitter.com/MasterMotoNaut" target="_blank" class="pr-5 text-faded">
+                <i class="fa fa-twitter-square fa-3x mb-3 sr-contact" aria-hidden="true" class="bg-primary"></i>
+              </a>
+          </div> 
+       </div>
+      </div>
+    </footer>
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
